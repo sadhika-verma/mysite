@@ -1,0 +1,123 @@
+/* ******************************************* TAG SELECTORS ***************************************************** */
+body{
+  margin: 0;
+    font-size: 120%;
+    text-align: center;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.6rem;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #007580;
+  line-height: 2;
+  margin-top: 10px;
+}
+h3{
+  color: #11999E;
+  line-height: 2;
+}
+a{
+  color:  #007580;
+  text-decoration: none;
+  padding-right: 40px;
+}
+a:hover{
+  text-decoration: none;
+  color: #00008b;
+}
+hr{
+  border: dotted #D8D3CD 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 30px auto 30px auto;
+}
+
+/* ******************************************* CLASS SELECTORS *************************************************** */
+.mountain{
+  width: 60%;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.top-container{
+  background-color: #CAF7E3;
+  color: #007580;
+  position: relative;
+  padding-top: 80px;
+}
+.top-cloud{
+  width: 20%;
+  position: absolute;
+  right: 150px;
+  top: 20px;
+}
+.bottom-cloud{
+  width: 20%;
+  position: absolute;
+  left: 50px;
+  bottom: 300px;
+}
+.pfp{
+  width: 20%;
+  border-radius: 10%;
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+.skill-piano{
+  width:40%;
+  margin-right: 30px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+  float: left;
+}
+.otter{
+  font-size: 120%;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.middle-container{
+  font-family: 'Merriweather', serif;
+  padding-bottom: 30px;
+}
+.bottom-container{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #66BFBF;
+  color: white;
+  font-size: 1rem;
+  padding-top: 30px;
+  padding-bottom: 1px;
+}
+.skill-coding{
+  width: 35%;
+  margin-left: 30px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+  float: right;
+}
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 16px;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.bye{
+  font-size: 0.9rem;
+}
+/* ******************************************* ID SELECTORS ***************************************************** */
